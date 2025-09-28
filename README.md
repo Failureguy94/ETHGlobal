@@ -1,13 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AAVE Last Dance - Liquidation Protection with World ID
+
+## Overview
+
+AAVE Last Dance is a decentralized application that provides liquidation protection for AAVE users by integrating World ID verification. The project combines secure identity verification with DeFi protection mechanisms to create a safer lending environment.
+
+## Features
+
+- 🔐 **World ID Integration**: Secure identity verification using World ID
+- 🛡️ **Liquidation Protection**: Automated protection mechanisms for AAVE positions
+- 🌐 **Cross-Chain Support**: Works across multiple networks through Reactive Network
+- 🔄 **Real-time Monitoring**: Continuous position health monitoring
+- 🎯 **Automated Response**: Swift action on potential liquidation events
+
+## Tech Stack
+
+- **Frontend**:
+  - Next.js 15.5
+  - React 19.1
+  - TailwindCSS
+  - TypeScript
+  - World ID SDK
+
+- **Blockchain**:
+  - Ethers.js 6.15
+  - Foundry (Smart Contracts)
+  - Reactive Network Integration
+
+- **Identity**:
+  - World ID Integration
+  - MiniKit React Components
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+
+- npm/yarn
+- Foundry (for smart contract development)
+- World ID App Registration
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/Failureguy94/ETHGlobal.git
+cd ETHGlobal
+```
+
+2. Install dependencies:
+```bash
+npm install
 # or
 pnpm dev
 # or
