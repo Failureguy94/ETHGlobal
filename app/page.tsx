@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { destinationBytecode as CallbackBytecode } from "src/app/data/AAVELiquidationProtectionCallback";
-import { reactiveBytecode as ReactiveBytecode } from "src/app/data/AAVELiquidationProtectionReactive";
+import { destinationBytecode as CallbackBytecode } from "./data/AAVELiquidationProtectionCallback.js";
+import { reactiveBytecode as ReactiveBytecode } from "./data/AAVELiquidationProtectionReactive.js";
 
 // Contract ABIs (simplified for brevity)
 const CallbackABI = [
@@ -31,7 +31,7 @@ const LendingPoolABI = [
 
 // Network information
 const SEPOLIA_CHAIN_ID = 11155111;
-const SEPOLIA_RPC_URL = "https://eth-sepolia.g.alchemy.com/<api-key>";
+const SEPOLIA_RPC_URL = "https://eth-sepolia.g.alchemy.com/cKPMG8tn3ae_cWyOGUrBOQABwMODzV51";
 const SEPOLIA_SYSTEM_CONTRACT = "0x0000000000000000000000000000000000FFFFFF";
 
 const WORLD_CHAIN_ID = 4801;

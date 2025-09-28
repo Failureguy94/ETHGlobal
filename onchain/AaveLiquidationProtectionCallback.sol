@@ -4,7 +4,7 @@ pragma solidity >=0.8.0;
 
 import 'onchain/hackathon/src/AbstractCallback.sol';
 import '../onchain/hackathon/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol';
-import {AggregatorV3Interface} from "onchain/AggregatorV3interafce.sol";
+import {AggregatorV3Interface} from "onchain/AggregatorV3interface.sol";
 interface IERC20Detailed is IERC20 {
     function decimals() external view returns (uint8);
 }
