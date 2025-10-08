@@ -31,7 +31,7 @@ const LendingPoolABI = [
 
 // Network information
 const SEPOLIA_CHAIN_ID = 11155111;
-const SEPOLIA_RPC_URL = "https://eth-sepolia.g.alchemy.com/cKPMG8tn3ae_cWyOGUrBOQABwMODzV51";
+const SEPOLIA_RPC_URL = "https://eth-sepolia.g.alchemy.com/ALCHEMY_API_KEY";
 const SEPOLIA_SYSTEM_CONTRACT = "0x0000000000000000000000000000000000FFFFFF";
 
 const WORLD_CHAIN_ID = 4801;
